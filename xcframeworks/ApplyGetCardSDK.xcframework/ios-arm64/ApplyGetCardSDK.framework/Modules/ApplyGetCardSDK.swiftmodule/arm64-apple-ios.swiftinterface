@@ -141,7 +141,7 @@ extension ApplyGetCardSDK.AGCComponent : UIKit.UIScrollViewDelegate {
 public protocol AGCDelegate : AnyObject {
   func onPywSuccess(pywId: Swift.String?, pywConfirmation: ApplyGetCardSDK.PYWConfirmation?)
   func onPywFailure(pywId: Swift.String?)
-  func onPywCanceled()
+  func onCanceled()
   func onPywHold(pywId: Swift.String?)
   func onPywInvalidSession()
   func onApplyGetCardFailure()

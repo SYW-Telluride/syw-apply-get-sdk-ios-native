@@ -3958,8 +3958,8 @@
           },
           {
             "kind": "Function",
-            "name": "onPywCanceled",
-            "printedName": "onPywCanceled()",
+            "name": "onCanceled",
+            "printedName": "onCanceled()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3968,8 +3968,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15ApplyGetCardSDK11AGCDelegateP13onPywCanceledyyF",
-            "mangledName": "$s15ApplyGetCardSDK11AGCDelegateP13onPywCanceledyyF",
+            "usr": "s:15ApplyGetCardSDK11AGCDelegateP10onCanceledyyF",
+            "mangledName": "$s15ApplyGetCardSDK11AGCDelegateP10onCanceledyyF",
             "moduleName": "ApplyGetCardSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApplyGetCardSDK.AGCDelegate>",
             "sugared_genericSig": "<Self where Self : ApplyGetCardSDK.AGCDelegate>",
@@ -5077,14 +5077,14 @@
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/ViewControllers\/PywViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11299,
+      "offset": 11296,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/ViewControllers\/PywViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11325,
+      "offset": 11322,
       "length": 3,
       "value": "\"N\""
     },
