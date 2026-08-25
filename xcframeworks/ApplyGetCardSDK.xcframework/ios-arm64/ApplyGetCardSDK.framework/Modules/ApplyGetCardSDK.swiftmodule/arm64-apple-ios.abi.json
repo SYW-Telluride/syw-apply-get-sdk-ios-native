@@ -2171,6 +2171,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplyGetCardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2249,6 +2259,16 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "ApplyGetCardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplyGetCardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2364,36 +2384,6 @@
           },
           {
             "kind": "Function",
-            "name": "setSourceViewController",
-            "printedName": "setSourceViewController(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AGCBuilder",
-                "printedName": "ApplyGetCardSDK.AGCBuilder",
-                "usr": "s:15ApplyGetCardSDK10AGCBuilderC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15ApplyGetCardSDK10AGCBuilderC23setSourceViewControlleryACSo06UIViewI0CF",
-            "mangledName": "$s15ApplyGetCardSDK10AGCBuilderC23setSourceViewControlleryACSo06UIViewI0CF",
-            "moduleName": "ApplyGetCardSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "DiscardableResult",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setSaleAmount",
             "printedName": "setSaleAmount(_:)",
             "children": [
@@ -2413,6 +2403,58 @@
             "declKind": "Func",
             "usr": "s:15ApplyGetCardSDK10AGCBuilderC13setSaleAmountyACSSF",
             "mangledName": "$s15ApplyGetCardSDK10AGCBuilderC13setSaleAmountyACSSF",
+            "moduleName": "ApplyGetCardSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPaymentSummary",
+            "printedName": "setPaymentSummary(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AGCBuilder",
+                "printedName": "ApplyGetCardSDK.AGCBuilder",
+                "usr": "s:15ApplyGetCardSDK10AGCBuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : Swift.AnyHashable]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.AnyHashable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ApplyGetCardSDK10AGCBuilderC17setPaymentSummaryyACSaySDySSs11AnyHashableVGGF",
+            "mangledName": "$s15ApplyGetCardSDK10AGCBuilderC17setPaymentSummaryyACSaySDySSs11AnyHashableVGGF",
             "moduleName": "ApplyGetCardSDK",
             "declAttributes": [
               "Final",
@@ -2533,119 +2575,6 @@
             "declKind": "Func",
             "usr": "s:15ApplyGetCardSDK10AGCBuilderC12setAddressesyACSSF",
             "mangledName": "$s15ApplyGetCardSDK10AGCBuilderC12setAddressesyACSSF",
-            "moduleName": "ApplyGetCardSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "DiscardableResult",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setPrepareHandler",
-            "printedName": "setPrepareHandler(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AGCBuilder",
-                "printedName": "ApplyGetCardSDK.AGCBuilder",
-                "usr": "s:15ApplyGetCardSDK10AGCBuilderC"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15ApplyGetCardSDK10AGCBuilderC17setPrepareHandleryACyycF",
-            "mangledName": "$s15ApplyGetCardSDK10AGCBuilderC17setPrepareHandleryACyycF",
-            "moduleName": "ApplyGetCardSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "DiscardableResult",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setStatusHandler",
-            "printedName": "setStatusHandler(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AGCBuilder",
-                "printedName": "ApplyGetCardSDK.AGCBuilder",
-                "usr": "s:15ApplyGetCardSDK10AGCBuilderC"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15ApplyGetCardSDK10AGCBuilderC16setStatusHandleryACySScF",
-            "mangledName": "$s15ApplyGetCardSDK10AGCBuilderC16setStatusHandleryACySScF",
-            "moduleName": "ApplyGetCardSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "DiscardableResult",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setPrepareButtonEnabled",
-            "printedName": "setPrepareButtonEnabled(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AGCBuilder",
-                "printedName": "ApplyGetCardSDK.AGCBuilder",
-                "usr": "s:15ApplyGetCardSDK10AGCBuilderC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15ApplyGetCardSDK10AGCBuilderC23setPrepareButtonEnabledyACSbF",
-            "mangledName": "$s15ApplyGetCardSDK10AGCBuilderC23setPrepareButtonEnabledyACSbF",
             "moduleName": "ApplyGetCardSDK",
             "declAttributes": [
               "Final",
@@ -3047,6 +2976,36 @@
           },
           {
             "kind": "Function",
+            "name": "setSDKType",
+            "printedName": "setSDKType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AGCBuilder",
+                "printedName": "ApplyGetCardSDK.AGCBuilder",
+                "usr": "s:15ApplyGetCardSDK10AGCBuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ApplyGetCardSDK10AGCBuilderC10setSDKTypeyACSSF",
+            "mangledName": "$s15ApplyGetCardSDK10AGCBuilderC10setSDKTypeyACSSF",
+            "moduleName": "ApplyGetCardSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setProps",
             "printedName": "setProps(_:)",
             "children": [
@@ -3155,6 +3114,26 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ApplyGetCardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplyGetCardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplyGetCardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3604,35 +3583,6 @@
           },
           {
             "kind": "Function",
-            "name": "setPrepareButtonEnabled",
-            "printedName": "setPrepareButtonEnabled(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15ApplyGetCardSDK12AGCComponentC23setPrepareButtonEnabledyySbF",
-            "mangledName": "$s15ApplyGetCardSDK12AGCComponentC23setPrepareButtonEnabledyySbF",
-            "moduleName": "ApplyGetCardSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "continueToApplication",
             "printedName": "continueToApplication()",
             "children": [
@@ -3829,10 +3779,50 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplyGetCardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplyGetCardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "ApplyGetCardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplyGetCardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplyGetCardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3866,6 +3856,30 @@
         "name": "AGCDelegate",
         "printedName": "AGCDelegate",
         "children": [
+          {
+            "kind": "Function",
+            "name": "exitSDKHandler",
+            "printedName": "exitSDKHandler()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ApplyGetCardSDK11AGCDelegateP14exitSDKHandleryyF",
+            "mangledName": "$s15ApplyGetCardSDK11AGCDelegateP14exitSDKHandleryyF",
+            "moduleName": "ApplyGetCardSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApplyGetCardSDK.AGCDelegate>",
+            "sugared_genericSig": "<Self where Self : ApplyGetCardSDK.AGCDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "onPywSuccess",
@@ -4231,6 +4245,69 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCanceled",
+            "printedName": "onCanceled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ApplyGetCardSDK11AGCDelegatePAAE10onCanceledyyF",
+            "mangledName": "$s15ApplyGetCardSDK11AGCDelegatePAAE10onCanceledyyF",
+            "moduleName": "ApplyGetCardSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApplyGetCardSDK.AGCDelegate>",
+            "sugared_genericSig": "<Self where Self : ApplyGetCardSDK.AGCDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onApplyGetCardFailure",
+            "printedName": "onApplyGetCardFailure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ApplyGetCardSDK11AGCDelegatePAAE02onabC7FailureyyF",
+            "mangledName": "$s15ApplyGetCardSDK11AGCDelegatePAAE02onabC7FailureyyF",
+            "moduleName": "ApplyGetCardSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApplyGetCardSDK.AGCDelegate>",
+            "sugared_genericSig": "<Self where Self : ApplyGetCardSDK.AGCDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onApplyGetCardSuccess",
+            "printedName": "onApplyGetCardSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ApplyGetCardSDK11AGCDelegatePAAE02onabC7SuccessyyF",
+            "mangledName": "$s15ApplyGetCardSDK11AGCDelegatePAAE02onabC7SuccessyyF",
+            "moduleName": "ApplyGetCardSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApplyGetCardSDK.AGCDelegate>",
+            "sugared_genericSig": "<Self where Self : ApplyGetCardSDK.AGCDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -4336,8 +4413,22 @@
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Extensions\/AGCSDKFontLoader.swift",
       "kind": "Array",
       "offset": 190,
-      "length": 151,
-      "value": "[\"Montserrat-Light\", \"Montserrat-Regular\", \"Montserrat-Medium\", \"Montserrat-SemiBold\", \"Montserrat-Bold\"]"
+      "length": 572,
+      "value": "[\"Montserrat-Light\", \"Montserrat-Regular\", \"Montserrat-Medium\", \"Montserrat-SemiBold\", \"Montserrat-Bold\", \"OpenSans-Light\", \"OpenSans-Regular\", \"OpenSans-Medium\", \"OpenSans-SemiBold\", \"OpenSans-Bold\", \"OpenSans-ExtraBold\", \"Outfit-Thin\", \"Outfit-ExtraLight\", \"Outfit-Light\", \"Outfit-Regular\", \"Outfit-Medium\", \"Outfit-SemiBold\", \"Outfit-Bold\", \"Outfit-Black\", \"Outfit-ExtraBold\"]"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 523,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 797,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWLabel.swift",
@@ -4373,6 +4464,13 @@
       "offset": 1056,
       "length": 1,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCRepairOnlyLess200.swift",
+      "kind": "IntegerLiteral",
+      "offset": 541,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWTextView.swift",
@@ -4489,163 +4587,170 @@
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 648,
       "length": 5,
       "value": "\"0.0\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 689,
+      "offset": 691,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 727,
+      "offset": 729,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 765,
+      "offset": 767,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 800,
+      "offset": 802,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 841,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 876,
+      "offset": 878,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 915,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1062,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1112,
+      "offset": 917,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1148,
+      "offset": 1120,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1185,
+      "offset": 1156,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
+      "offset": 1193,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1233,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1307,
+      "offset": 1272,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1315,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1385,
+      "offset": 1358,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1421,
+      "offset": 1393,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1455,
+      "offset": 1429,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1493,
+      "offset": 1463,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1537,
+      "offset": 1501,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1571,
+      "offset": 1545,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1579,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
       "kind": "Dictionary",
-      "offset": 1626,
+      "offset": 1672,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCBuilder.swift",
+      "kind": "Array",
+      "offset": 1735,
+      "length": 5,
+      "value": "[[]]"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Extensions\/UIView+Extension.swift",
@@ -4683,6 +4788,167 @@
       "value": "0.0"
     },
     {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 519,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "StringLiteral",
+      "offset": 864,
+      "length": 8,
+      "value": "\"F5F7FA\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 912,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "StringLiteral",
+      "offset": 971,
+      "length": 9,
+      "value": "\"#EBEDF2\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1029,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1065,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1280,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "StringLiteral",
+      "offset": 1555,
+      "length": 94,
+      "value": "\"<span style='font-size:12px; font-weight:400; color:#606568;'>Unable to load QR code.<\/span>\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2031,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2107,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "StringLiteral",
+      "offset": 2264,
+      "length": 18,
+      "value": "\"OpenSans-Regular\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2290,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2317,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "StringLiteral",
+      "offset": 2767,
+      "length": 18,
+      "value": "\"OpenSans-Regular\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2793,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2820,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "StringLiteral",
+      "offset": 2881,
+      "length": 9,
+      "value": "\"#A7A8AB\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2939,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2979,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3059,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3427,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9165,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCQRScan.swift",
+      "kind": "StringLiteral",
+      "offset": 9191,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
       "offset": 526,
@@ -4699,72 +4965,86 @@
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "Array",
-      "offset": 1180,
+      "offset": 1249,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16510,
+      "offset": 18670,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16546,
+      "offset": 18706,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16582,
+      "offset": 18742,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16618,
+      "offset": 18778,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16658,
+      "offset": 18818,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16683,
+      "offset": 18843,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16706,
+      "offset": 18866,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16729,
+      "offset": 18889,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWOfferView\/PYWOfferView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16802,
+      "offset": 18962,
       "length": 2,
       "value": "16"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCFeeCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 525,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCFeeCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 799,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
@@ -4776,65 +5056,205 @@
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
       "kind": "StringLiteral",
-      "offset": 1935,
+      "offset": 2059,
       "length": 6,
       "value": "\"part\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
       "kind": "StringLiteral",
-      "offset": 2240,
+      "offset": 2105,
+      "length": 7,
+      "value": "\"mType\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 4385,
+      "length": 6,
+      "value": "\"part\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 4431,
+      "length": 7,
+      "value": "\"mType\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 4725,
+      "length": 8,
+      "value": "\"mLabel\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 4755,
+      "length": 8,
+      "value": "\"mValue\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 4853,
       "length": 12,
       "value": "\"text&Image\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
       "kind": "StringLiteral",
-      "offset": 2333,
+      "offset": 4946,
       "length": 12,
       "value": "\"link-modal\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
       "kind": "StringLiteral",
-      "offset": 2366,
+      "offset": 4979,
       "length": 11,
       "value": "\"text-link\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
       "kind": "StringLiteral",
-      "offset": 2432,
+      "offset": 5029,
+      "length": 12,
+      "value": "\"offer-card\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5062,
+      "length": 10,
+      "value": "\"fee-card\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5098,
+      "length": 15,
+      "value": "\"divider-label\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5141,
+      "length": 17,
+      "value": "\"price-breakdown\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5174,
+      "length": 5,
+      "value": "\"row\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5199,
+      "length": 9,
+      "value": "\"divider\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5234,
+      "length": 15,
+      "value": "\"count towards\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5377,
+      "length": 50,
+      "value": "\"Repair only ��� pay today greater than 200\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5545,
+      "length": 46,
+      "value": "\"Repair only ��� pay today lessthan 200\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5611,
+      "length": 9,
+      "value": "\"qr-scan\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5638,
+      "length": 7,
+      "value": "\"input\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5668,
+      "length": 13,
+      "value": "\"link-button\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5706,
+      "length": 15,
+      "value": "\"action-button\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5776,
       "length": 4,
       "value": "\"T1\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
       "kind": "StringLiteral",
-      "offset": 2451,
+      "offset": 5795,
       "length": 4,
       "value": "\"T2\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
       "kind": "StringLiteral",
-      "offset": 2473,
+      "offset": 5817,
       "length": 7,
       "value": "\"TSYW1\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
       "kind": "StringLiteral",
-      "offset": 2496,
+      "offset": 5840,
       "length": 5,
       "value": "\"YBR\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
       "kind": "StringLiteral",
-      "offset": 2519,
+      "offset": 5863,
       "length": 7,
       "value": "\"TSHS1\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5888,
+      "length": 7,
+      "value": "\"TSHS2\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/APIEntity\/PYWLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 5915,
+      "length": 9,
+      "value": "\"NONQRJS\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCResources.swift",
@@ -4862,14 +5282,14 @@
       "kind": "StringLiteral",
       "offset": 7075,
       "length": 13935,
-      "value": "\"{\n  \"CMP_PayYourWay\": {\n    \"template\": \"TSHS1\",\n    \"background\": \"F4F8FF\",\n    \"disabled\": false,\n    \"offerDes\": \"Get $200 back��\",\n    \"AnBDisabled\": false,\n    \"offers\": {\n      \"parts\": [\n        {\n          \"part\": 1,\n          \"type\": \"image\",\n          \"url\": \"https:\/\/pywweb.uat.telluride.shopyourway.com\/pyw_library\/images\/Contactless_visa_syw.png\"\n        },\n        {\n          \"part\": 2,\n          \"type\": \"image\",\n          \"url\": \"https:\/\/pywweb.uat.telluride.shopyourway.com\/pyw_library\/images\/SearsHomeServices.png\"\n        },\n        {\n          \"part\": 3,\n          \"type\": \"text\",\n          \"content\": \"<span style='font-size:12px; font-weight:600; color: #5E6A70;'><p>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span><\/p><\/span>\",\n          \"content_web\": \"<span class='sears-card-title tw-block tw-self-stretch tw-text-[#5E6A70] tw-text-xs tw-font-semibold'>5321 Visa<sup class='tw-text-[7px] tw-font-semibold'>&#174;<\/sup> Credit Card<\/span>\"\n        },\n        {\n          \"part\": 4,\n          \"type\": \"text\",\n          \"content\": \"<span style='font-size:24px; font-weight:700; color: #132122;'>Get <span style='color: #0066cc;'>$200<\/span> back<sup>1<\/sup><\/span>\",\n          \"content_web\": \"<span class='sears-offer-headline tw-block tw-self-stretch tw-text-2xl tw-font-extrabold tw-leading-tight tw-text-[#132122]'>Get <span class='tw-text-[#0047B2]'>$200<\/span> back&#185;<\/span>\"\n        },\n        {\n          \"part\": 5,\n          \"type\": \"text-link\",\n          \"content\": \"<span style='font-size:14px; font-weight:400; color:#5E6A70;'> <span style='color: rgb(51, 51, 51);'><span>as a Statement Credit after $200 in qualifying purchases with a new <\/span><span style='color: #132122;font-weight:700;'>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span><sup>1<\/sup>. Terms apply.<\/span> <a href='seedetails' style='font-size:14px; font-weight:400; color:#5E6A70;text-decoration:none;'> <sup>1<\/sup><span style='text-decoration:underline;'>See Details.<\/span> <\/a> <\/span>\",\n          \"content_web\": \"<span class='tw-font-[Montserrat] tw-text-[#5E6A70] tw-text-xs tw-font-[400] tw-leading-4'>as a Statement Credit after $200 in<br\/>qualifying purchases with a new <span class='tw-font-[Montserrat] tw-text-[#132122] tw-text-xs tw-font-bold tw-leading-4'>5321 Visa<sup class='tw-text-[7px] tw-font-bold'>&#174;<\/sup><\/span> <span class='tw-font-[Montserrat] tw-text-[#132122] tw-text-xs tw-font-bold tw-leading-4'>Credit Card<\/span>&#185;. Terms apply. &#185;<\/span>\",\n          \"data\": \"<div style='margin:0; padding:4px 16px 16px 16px; font-family: Arial, sans-serif; font-size:14px; color:#000;'><p style='margin:0 0 0px;'><strong style='color:#1c4587;'>PREQUALIFICATION: CHECKING WON'T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><p style='margin:0 0 16px;'>Eligibility check uses a soft credit inquiry and won't affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry and may impact your credit score.<\/p><p style='margin:0 0 16px;'><span style='color:#1c4587;'><sup>1<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><p style='margin:0 0 32px;'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><p style='margin:0 0 16px;'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><p style='margin:0 0 16px;'>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><p style='margin:0 0 16px; color:#999999;'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><p style='margin:0; '>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\"\n        },\n        {\n          \"part\": 6,\n          \"type\": \"text\",\n          \"content\": \"\",\n          \"content_web\": \"<span class='tw-font-[Montserrat] tw-text-[#5E6A70] tw-text-xs tw-font-[400] tw-leading-4'><\/span>\"\n        },\n        {\n          \"part\": 7,\n          \"type\": \"link-modal\",\n          \"data\": \"<div style='margin:0; padding:4px 16px 16px 16px; font-family: Arial, sans-serif; font-size:14px; color:#000;'><p style='margin:0 0 0px;'><strong style='color:#1c4587;'>PREQUALIFICATION: CHECKING WON'T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><p style='margin:0 0 16px;'>Eligibility check uses a soft credit inquiry and won't affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry and may impact your credit score.<\/p><p style='margin:0 0 16px;'><span style='color:#1c4587;'><sup>1<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><p style='margin:0 0 32px;'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><p style='margin:0 0 16px;'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><p style='margin:0 0 16px;'>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><p style='margin:0 0 16px; color:#999999;'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><p style='margin:0; '>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\",\n          \"data_web\": \"<div class='tw-m-0 tw-pt-1 tw-px-4 tw-pb-4 tw-font-[Arial,sans-serif] tw-text-sm tw-text-black'><p class='tw-m-0 tw-mb-4'><strong class='tw-text-[#1c4587]'>PREQUALIFICATION: CHECKING WON&apos;T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><p class='tw-m-0 tw-mb-4'>Eligibility check uses a soft credit inquiry and won&apos;t affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry and may impact your credit score.<\/p><p class='tw-m-0 tw-mb-4'><span class='tw-text-[#1c4587]'><sup>&#49;<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><p class='tw-m-0 tw-mb-8'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><p class='tw-m-0 tw-mb-4'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><p class='tw-m-0 '>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><p class='tw-m-0 tw-mb-4 tw-text-[#999999]'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><p class='tw-m-0 '>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\",\n          \"content\": \"\",\n          \"content_web\": \"\",\n          \"url\": \"\"\n        },\n        {\n          \"part\": 8,\n          \"type\": \"text\",\n          \"content\": \"\",\n          \"content_web\": \"\",\n          \"url\": \"\"\n        },\n        {\n          \"part\": 9,\n          \"type\": \"button\",\n          \"content\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n          \"content_web\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n          \"content_ang\": \"<span style='color:#FFFFFF; font-size:14px; font-weight:bold'>See if I pre-qualify<\/span>\",\n          \"content_checkout\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n          \"content_checkout_web\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n          \"content_anb\": \"<span class='tw-flex tw-items-center tw-justify-center tw-text-white tw-text-base tw-font-bold tw-font-[Montserrat]'>See if I pre-qualify<\/span>\",\n          \"background\": \"#0048BB\",\n          \"disabledBackground\": \"#C0C0C0\",\n          \"cornerRadius\": 4,\n          \"Fn_PostMessage\": true\n        },\n        {\n          \"part\": 10,\n          \"type\": \"link\",\n          \"content\": \"<span class='sears-footer-link' style='color:#5D686D;font-family:Montserrat;font-size:10px;font-weight:400;line-height:12px;font-feature-settings:&quot;liga&quot; off,&quot;clig&quot; off;cursor:pointer'>See <span style='text-decoration-line:underline;text-decoration-style:solid;text-decoration-skip-ink:auto;text-underline-offset:auto;text-underline-position:from-font'>credit card terms<\/span><br\/><span style='text-decoration-line:underline;text-decoration-style:solid;text-decoration-skip-ink:auto;text-underline-offset:auto;text-underline-position:from-font'>and conditions<\/span><\/span>\",\n          \"content_web\": \"<span class=''tw-font-[Montserrat] tw-text-[#5D686D] tw-text-[10px] tw-font-[400] tw-leading-[12px] tw-cursor-pointer [font-feature-settings:'liga'_off,'clig'_off]'>See <span class='tw-underline tw-decoration-solid tw-underline-offset-auto [text-decoration-skip-ink:auto] [text-underline-position:from-font]'>credit card terms<\/span><br\/><span class='tw-underline tw-decoration-solid tw-underline-offset-auto [text-decoration-skip-ink:auto] [text-underline-position:from-font]'>and conditions<\/span><\/span>\",\n          \"url\": \"https:\/\/storage.googleapis.com\/aress-prd-uploads-public\/uploads\/85b38238-18d6-4291-8725-64ebdb0fa6f8-799APD010226.pdf\",\n          \"data_web\": \"\",\n          \"openWith\": \"tab\"\n        }\n      ]\n    }\n  },\n  \"merchant\": \"TECHHUB\",\n  \"perks\": \"\"\n}\""
+      "value": "\"{\n  \"CMP_PayYourWay\": {\n    \"template\": \"TSHS1\",\n    \"background\": \"F5F7FA\",\n    \"disabled\": false,\n    \"offerDes\": \"Get $200 back��\",\n    \"AnBDisabled\": false,\n    \"offers\": {\n      \"parts\": [\n        {\n          \"part\": 1,\n          \"type\": \"image\",\n          \"url\": \"https:\/\/pywweb.uat.telluride.shopyourway.com\/pyw_library\/images\/Contactless_visa_syw.png\"\n        },\n        {\n          \"part\": 2,\n          \"type\": \"image\",\n          \"url\": \"https:\/\/pywweb.uat.telluride.shopyourway.com\/pyw_library\/images\/SearsHomeServices.png\"\n        },\n        {\n          \"part\": 3,\n          \"type\": \"text\",\n          \"content\": \"<span style='font-size:12px; font-weight:600; color: #5E6A70;'><p>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span><\/p><\/span>\",\n          \"content_web\": \"<span class='sears-card-title tw-block tw-self-stretch tw-text-[#5E6A70] tw-text-xs tw-font-semibold'>5321 Visa<sup class='tw-text-[7px] tw-font-semibold'>&#174;<\/sup> Credit Card<\/span>\"\n        },\n        {\n          \"part\": 4,\n          \"type\": \"text\",\n          \"content\": \"<span style='font-size:24px; font-weight:700; color: #132122;'>Get <span style='color: #0066cc;'>$200<\/span> back<sup>1<\/sup><\/span>\",\n          \"content_web\": \"<span class='sears-offer-headline tw-block tw-self-stretch tw-text-2xl tw-font-extrabold tw-leading-tight tw-text-[#132122]'>Get <span class='tw-text-[#0047B2]'>$200<\/span> back&#185;<\/span>\"\n        },\n        {\n          \"part\": 5,\n          \"type\": \"text-link\",\n          \"content\": \"<span style='font-size:14px; font-weight:400; color:#5E6A70;'> <span style='color: rgb(51, 51, 51);'><span>as a Statement Credit after $200 in qualifying purchases with a new <\/span><span style='color: #132122;font-weight:700;'>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span><sup>1<\/sup>. Terms apply.<\/span> <a href='seedetails' style='font-size:14px; font-weight:400; color:#5E6A70;text-decoration:none;'> <sup>1<\/sup><span style='text-decoration:underline;'>See Details.<\/span> <\/a> <\/span>\",\n          \"content_web\": \"<span class='tw-font-[Montserrat] tw-text-[#5E6A70] tw-text-xs tw-font-[400] tw-leading-4'>as a Statement Credit after $200 in<br\/>qualifying purchases with a new <span class='tw-font-[Montserrat] tw-text-[#132122] tw-text-xs tw-font-bold tw-leading-4'>5321 Visa<sup class='tw-text-[7px] tw-font-bold'>&#174;<\/sup><\/span> <span class='tw-font-[Montserrat] tw-text-[#132122] tw-text-xs tw-font-bold tw-leading-4'>Credit Card<\/span>&#185;. Terms apply. &#185;<\/span>\",\n          \"data\": \"<div style='margin:0; padding:4px 16px 16px 16px; font-family: Arial, sans-serif; font-size:14px; color:#000;'><p style='margin:0 0 0px;'><strong style='color:#1c4587;'>PREQUALIFICATION: CHECKING WON'T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><p style='margin:0 0 16px;'>Eligibility check uses a soft credit inquiry and won't affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry and may impact your credit score.<\/p><p style='margin:0 0 16px;'><span style='color:#1c4587;'><sup>1<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><p style='margin:0 0 32px;'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><p style='margin:0 0 16px;'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><p style='margin:0 0 16px;'>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><p style='margin:0 0 16px; color:#999999;'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><p style='margin:0; '>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\"\n        },\n        {\n          \"part\": 6,\n          \"type\": \"text\",\n          \"content\": \"\",\n          \"content_web\": \"<span class='tw-font-[Montserrat] tw-text-[#5E6A70] tw-text-xs tw-font-[400] tw-leading-4'><\/span>\"\n        },\n        {\n          \"part\": 7,\n          \"type\": \"link-modal\",\n          \"data\": \"<div style='margin:0; padding:4px 16px 16px 16px; font-family: Arial, sans-serif; font-size:14px; color:#000;'><p style='margin:0 0 0px;'><strong style='color:#1c4587;'>PREQUALIFICATION: CHECKING WON'T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><p style='margin:0 0 16px;'>Eligibility check uses a soft credit inquiry and won't affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry and may impact your credit score.<\/p><p style='margin:0 0 16px;'><span style='color:#1c4587;'><sup>1<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><p style='margin:0 0 32px;'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><p style='margin:0 0 16px;'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><p style='margin:0 0 16px;'>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><p style='margin:0 0 16px; color:#999999;'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><p style='margin:0; '>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\",\n          \"data_web\": \"<div class='tw-m-0 tw-pt-1 tw-px-4 tw-pb-4 tw-font-[Arial,sans-serif] tw-text-sm tw-text-black'><p class='tw-m-0 tw-mb-4'><strong class='tw-text-[#1c4587]'>PREQUALIFICATION: CHECKING WON&apos;T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><p class='tw-m-0 tw-mb-4'>Eligibility check uses a soft credit inquiry and won&apos;t affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry and may impact your credit score.<\/p><p class='tw-m-0 tw-mb-4'><span class='tw-text-[#1c4587]'><sup>&#49;<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><p class='tw-m-0 tw-mb-8'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><p class='tw-m-0 tw-mb-4'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><p class='tw-m-0 '>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><p class='tw-m-0 tw-mb-4 tw-text-[#999999]'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><p class='tw-m-0 '>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\",\n          \"content\": \"\",\n          \"content_web\": \"\",\n          \"url\": \"\"\n        },\n        {\n          \"part\": 8,\n          \"type\": \"text\",\n          \"content\": \"\",\n          \"content_web\": \"\",\n          \"url\": \"\"\n        },\n        {\n          \"part\": 9,\n          \"type\": \"button\",\n          \"content\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n          \"content_web\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n          \"content_ang\": \"<span style='color:#FFFFFF; font-size:14px; font-weight:bold'>See if I pre-qualify<\/span>\",\n          \"content_checkout\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n          \"content_checkout_web\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n          \"content_anb\": \"<span class='tw-flex tw-items-center tw-justify-center tw-text-white tw-text-base tw-font-bold tw-font-[Montserrat]'>See if I pre-qualify<\/span>\",\n          \"background\": \"#0048BB\",\n          \"disabledBackground\": \"#C0C0C0\",\n          \"cornerRadius\": 4,\n          \"Fn_PostMessage\": true\n        },\n        {\n          \"part\": 10,\n          \"type\": \"link\",\n          \"content\": \"<span class='sears-footer-link' style='color:#5D686D;font-family:Montserrat;font-size:10px;font-weight:400;line-height:12px;font-feature-settings:&quot;liga&quot; off,&quot;clig&quot; off;cursor:pointer'>See <span style='text-decoration-line:underline;text-decoration-style:solid;text-decoration-skip-ink:auto;text-underline-offset:auto;text-underline-position:from-font'>credit card terms<\/span><br\/><span style='text-decoration-line:underline;text-decoration-style:solid;text-decoration-skip-ink:auto;text-underline-offset:auto;text-underline-position:from-font'>and conditions<\/span><\/span>\",\n          \"content_web\": \"<span class=''tw-font-[Montserrat] tw-text-[#5D686D] tw-text-[10px] tw-font-[400] tw-leading-[12px] tw-cursor-pointer [font-feature-settings:'liga'_off,'clig'_off]'>See <span class='tw-underline tw-decoration-solid tw-underline-offset-auto [text-decoration-skip-ink:auto] [text-underline-position:from-font]'>credit card terms<\/span><br\/><span class='tw-underline tw-decoration-solid tw-underline-offset-auto [text-decoration-skip-ink:auto] [text-underline-position:from-font]'>and conditions<\/span><\/span>\",\n          \"url\": \"https:\/\/storage.googleapis.com\/aress-prd-uploads-public\/uploads\/85b38238-18d6-4291-8725-64ebdb0fa6f8-799APD010226.pdf\",\n          \"data_web\": \"\",\n          \"openWith\": \"tab\"\n        }\n      ]\n    }\n  },\n  \"merchant\": \"TECHHUB\",\n  \"perks\": \"\"\n}\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/AGCResources.swift",
       "kind": "StringLiteral",
-      "offset": 21038,
-      "length": 12260,
-      "value": "\"{\n    \"CMP_PayYourWay\": {\n        \"template\": \"TSHS1\",\n        \"background\": \"#F4F8FF\",\n        \"disabled\": false,\n        \"offerDes\": \"Get $200 back��\",\n        \"AnBDisabled\": false,\n        \"offers\": {\n            \"parts\": [\n                {\n                    \"part\": 1,\n                    \"type\": \"image\",\n                    \"url\": \"https:\/\/pywweb.uat.telluride.shopyourway.com\/pyw_library\/images\/Contactless_visa_syw.png\"\n                },\n                {\n                    \"part\": 2,\n                    \"type\": \"image\",\n                    \"url\": \"https:\/\/pywweb.uat.telluride.shopyourway.com\/pyw_library\/images\/SearsHomeServices.png\"\n                },\n                {\n                    \"part\": 3,\n                    \"type\": \"text\",\n                    \"content\": \"<span style='font-size:12px; font-weight:600; color: #5E6A70;'><p>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span><\/p><\/span>\",\n                    \"content_web\": \"<span class='sears-card-title tw-block tw-self-stretch tw-text-[#5E6A70] tw-text-xs tw-font-semibold'>5321 Visa<sup class='tw-text-[7px] tw-font-semibold'>&#174;<\/sup> Credit Card<\/span>\"\n                },\n                {\n                    \"part\": 4,\n                    \"type\": \"text\",\n                    \"content\": \"<span style='font-size:24px; font-weight:700; color: #132122;'>Get <span style='color: #0066cc;'>$200<\/span> back<sup>1<\/sup><\/span>\",\n                    \"content_web\": \"<span class='sears-offer-headline tw-block tw-self-stretch tw-text-2xl tw-font-extrabold tw-leading-tight tw-text-[#132122]'>Get <span class='tw-text-[#0047B2]'>$200<\/span> back&#185;<\/span>\"\n                },\n                {\n                    \"part\": 5,\n                    \"type\": \"text\",\n                    \"content\": \"<span style='font-size:14px; font-weight:400; color:#5E6A70;'> <span style='color: rgb(51, 51, 51);'><span>as a Statement Credit after $200 in qualifying purchases with a new <\/span><span style='color: #132122;font-weight:700;'>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span><sup>1<\/sup>. Terms apply.<\/span><\/span>\",\n                    \"content_web\": \"<span class='tw-font-[Montserrat] tw-text-[#5E6A70] tw-text-xs tw-font-[400] tw-leading-4'>as a Statement Credit after $200 in<br\/>qualifying purchases with a new <span class='tw-font-[Montserrat] tw-text-[#132122] tw-text-xs tw-font-bold tw-leading-4'>5321 Visa<sup class='tw-text-[7px] tw-font-bold'>&#174;<\/sup><\/span> <span class='tw-font-[Montserrat] tw-text-[#132122] tw-text-xs tw-font-bold tw-leading-4'>Credit Card<\/span>&#185;. Terms apply. &#185;<\/span>\"\n                },\n                {\n                    \"part\": 6,\n                    \"type\": \"text\",\n                    \"content\": \"\",\n                    \"content_web\": \"<span class='tw-font-[Montserrat] tw-text-[#5E6A70] tw-text-xs tw-font-[400] tw-leading-4'><\/span>\"\n                },\n                {\n                    \"part\": 7,\n                    \"type\": \"link-modal\",\n                    \"data\": \"<div style='margin:0; padding:4px 16px 16px 16px; font-family: Arial, sans-serif; font-size:14px; color:#000;'><p style='margin:0 0 0px;'><strong style='color:#1c4587;'>PREQUALIFICATION: CHECKING WON'T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><p style='margin:0 0 16px;'>Eligibility check uses a soft credit inquiry and won't affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry and may impact your credit score.<\/p><p style='margin:0 0 16px;'><span style='color:#1c4587;'><sup>1<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><p style='margin:0 0 32px;'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><p style='margin:0 0 16px;'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><p style='margin:0 0 16px;'>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><p style='margin:0 0 16px; color:#999999;'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><p style='margin:0; '>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\",\n                    \"data_web\": \"<div class='tw-m-0 tw-pt-1 tw-px-4 tw-pb-4 tw-font-[Arial,sans-serif] tw-text-sm tw-text-black'><p class='tw-m-0 tw-mb-4'><strong class='tw-text-[#1c4587]'>PREQUALIFICATION: CHECKING WON&apos;T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><p class='tw-m-0 tw-mb-4'>Eligibility check uses a soft credit inquiry and won&apos;t affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry and may impact your credit score.<\/p><p class='tw-m-0 tw-mb-4'><span class='tw-text-[#1c4587]'><sup>&#49;<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><p class='tw-m-0 tw-mb-8'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><p class='tw-m-0 tw-mb-4'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><p class='tw-m-0 '>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><p class='tw-m-0 tw-mb-4 tw-text-[#999999]'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><p class='tw-m-0 '>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\",\n                    \"content\": \"<span style='color:#5E6A70; font-size:12px;font-weight:400;line-height:16px;text-decoration:underline;cursor:pointer'> <a href='seedetails' style='font-size:14px; font-weight:400; color:#5E6A70;text-decoration:none;'> <sup>1<\/sup><span style='text-decoration:underline;'>See Details.<\/span> <\/a> <\/span>\",\n                    \"content_web\": \"<span class='tw-font-[Montserrat] tw-text-[#5E6A70] tw-text-xs tw-font-[400] tw-leading-4 tw-underline tw-cursor-pointer'>See Details.<\/span>\",\n                    \"url\": \"\"\n                },\n                {\n                    \"part\": 8,\n                    \"type\": \"text\",\n                    \"content\": \"\",\n                    \"content_web\": \"\",\n                    \"url\": \"\"\n                },\n                {\n                    \"part\": 9,\n                    \"type\": \"button\",\n                    \"content\": \"<span style='color:#FFFFFF; font-size:14px; font-weight:bold'>See if I pre-qualify<\/span>\",\n                    \"content_web\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n                    \"content_ang\": \"<span class='tw-flex tw-items-center tw-justify-center tw-text-white tw-text-xs tw-font-bold tw-font-[Montserrat]'>See if I pre-qualify<\/span>\",\n                    \"content_checkout\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n                    \"content_checkout_web\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:16px;font-weight:700'>See if I pre-qualify<\/span>\",\n                    \"content_anb\": \"<span class='tw-flex tw-items-center tw-justify-center tw-text-white tw-text-base tw-font-bold tw-font-[Montserrat]'>See if I pre-qualify<\/span>\",\n                    \"background\": \"#0048BB\",\n                    \"disabledBackground\": \"#C0C0C0\",\n                    \"cornerRadius\": 4,\n                    \"Fn_PostMessage\": true\n                },\n                {\n                    \"part\": 10,\n                    \"type\": \"link\",\n                    \"content\": \"<span style='color:#5D686D;font-family:Montserrat;font-size:10px;font-weight:400;'>See <span style='text-decoration-line:underline;text-decoration-style:solid;text-decoration-skip-ink:auto;text-underline-offset:auto;text-underline-position:from-font'>credit card terms<\/span><br\/><span style='text-decoration-line:underline;text-decoration-style:solid;text-decoration-skip-ink:auto;text-underline-offset:auto;text-underline-position:from-font'>and conditions<\/span><\/span>\",\n                    \"content_web\": \"<span class='tw-font-[Montserrat] tw-text-[#5D686D] tw-text-[10px] tw-font-[400] tw-leading-[12px] tw-cursor-pointer [font-feature-settings:'liga'_off,'clig'_off]'>See <span class='tw-underline tw-decoration-solid tw-underline-offset-auto [text-decoration-skip-ink:auto] [text-underline-position:from-font]'>credit card terms<\/span><br\/><span class='tw-underline tw-decoration-solid tw-underline-offset-auto [text-decoration-skip-ink:auto] [text-underline-position:from-font]'>and conditions<\/span><\/span>\",\n                    \"url\": \"https:\/\/storage.googleapis.com\/aress-prd-uploads-public\/uploads\/85b38238-18d6-4291-8725-64ebdb0fa6f8-799APD010226.pdf\",\n                    \"data_web\": \"\",\n                    \"openWith\": \"tab\"\n                }\n            ]\n        }\n    },\n    \"merchant\": \"TECHHUB_QA\",\n    \"perks\": [\n        \"$200 statement credit when you spend a total of $200 or more within 90 days on qualifying Sears and SYW partner purchases†\",\n        \"See if you qualify with no impact to your credit score*\"\n    ]\n}\""
+      "offset": 47394,
+      "length": 38491,
+      "value": "\"{\n    \"CMP_PayYourWay\": {\n        \"template\": \"TSHS2\",\n        \"background\": \"#F5F7FA\",\n        \"disabled\": false,\n        \"screenName\": \"SDK Card Prompt > $200\",\n        \"offerDes\": \"Get $200 back��\",\n        \"offers\": {\n            \"parts\": [\n                {\n                    \"part\": 1,\n                    \"type\": \"header\",\n                    \"background\": \"#0066CC\",\n                    \"isEnable\": \"false\",\n                    \"subParts\": [\n                        {\n                            \"part\": 1.1,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#FFF;font-family:Outfit;font-size:16px;font-style:normal;font-weight:700;line-height:24px'>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span>\",\n                            \"content_web\": \"<span class='tw-text-white tw-font-[family-name:Outfit] tw-text-[16px] tw-not-italic tw-font-bold tw-leading-6'>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span>\"\n                        },\n                        {\n                            \"part\": 1.2,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#FFF;font-family:Open Sans;font-size:12px;font-style:normal;font-weight:600;line-height:24px'>with Shop Your Way<sup>&#174;<\/sup> Rewards<\/span>\",\n                            \"content_web\": \"<span class='tw-text-white tw-font-[family-name:Open_Sans] tw-text-[12px] tw-not-italic tw-font-semibold tw-leading-6'>with Shop Your Way<sup>&#174;<\/sup> Rewards<\/span>\"\n                        },\n                        {\n                            \"part\": 1.3,\n                            \"type\": \"image\",\n                            \"url\": \"https:\/\/pywweb.uat.telluride.shopyourway.com\/pyw_library\/images\/Credit_card_visa_horizontal.png\"\n                        }\n                    ]\n                },\n                {\n                    \"part\": 2,\n                    \"type\": \"text\",\n                    \"isEnable\": \"false\",\n                    \"content\": \"<span style='color:#0F213D;font-family:Outfit;font-size:16px;font-style:normal;font-weight:700;line-height:24px'>Before you choose how to pay, let us help<\/span>\",\n                    \"content_web\": \"<span class='tw-text-[#0F213D] tw-font-[family-name:Outfit] tw-text-[16px] tw-not-italic tw-font-bold tw-leading-6'>Before you choose how to pay, let us help<\/span>\"\n                },\n                {\n                    \"part\": 3,\n                    \"type\": \"text\",\n                    \"isEnable\": \"true\",\n                    \"content\": \"<span style='color:#0F213D;font-family:Outfit; font-size:16px;font-style:normal;font-weight:700;line-height:24px'>Wait &#8212; $129 and it&#39;s still broken? Let us help...<\/span>\",\n                    \"content_web\": \"<span class='tw-text-[#0F213D] tw-font-[family-name:Outfit] tw-text-[16px] tw-not-italic tw-font-bold tw-leading-6'>Wait &#8212; $129 and it&#39;s still broken? Let us help...<\/span>\"\n                },\n                {\n                    \"part\": 4,\n                    \"background\": \"#FFFFFF\",\n                    \"type\": \"offer-card\",\n                    \"cornerRadius\": 12,\n                    \"isEnable\": \"true\",\n                    \"subParts\": [\n                        {\n                            \"part\": 4.1,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#5E6A70; font-family:Open sans;font-size:12px;font-style:normal;font-weight:600;line-height:16px'>5321 Visa<sup style='vertical-align:-2px'>&#174;<\/sup> Credit Card<\/span>\",\n                            \"content_web\": \"<span class='tw-text-[#5E6A70] tw-font-[family-name:Open_Sans] tw-text-[12px] tw-not-italic tw-font-semibold tw-leading-4'>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span>\"\n                        },\n                        {\n                            \"part\": 4.2,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#06C;font-family:Outfit;font-size:20px;font-style:normal;font-weight:700;line-height:24px'>Get <span style='color:#06C;font-family:Outfit;font-size:20px;font-style:normal;font-weight:700;line-height:24px'>$200<\/span> back<sup style='font-size:0.5em';font-weight:500;>&#8224;<\/sup><\/span>\",\n                            \"content_web\": \"<span class='tw-text-[#0066CC] tw-font-[family-name:Outfit] tw-text-[20px] tw-not-italic tw-font-bold tw-leading-6'>Get <span class='tw-font-bold'>$200<\/span> back<sup class='tw-font-[family-name:Open_Sans] tw-font-medium'>&#8224;<\/sup><\/span>\"\n                        },\n                        {\n                            \"part\": 4.3,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:var(--color-text-secondary,#5E6A70);font-family:Open Sans;font-size:12px;font-style:normal;font-weight:400;line-height:16px'>as a Statement Credit after $200 in qualifying purchases with a new <span style='color:var(--color-text-primary,#262C2F);font-family:Open Sans;font-size:12px;font-style:normal;font-weight:700;line-height:16px'>5321 Visa<sup style='vertical-align:-2px'>&#174;<\/sup> Credit Card<\/span>.<sup style='font-size:10px'>&#8224;<\/sup> Terms apply. <\/span>\",\n                            \"content_web\": \"<span class='tw-text-[#5E6A70] tw-font-[family-name:Open_Sans] tw-text-[12px] tw-not-italic tw-font-normal tw-leading-[14px]'>as a Statement Credit after $200 in qualifying purchases with a new <span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[12px] tw-not-italic tw-font-bold tw-leading-[14px]'>5321 Visa<sup>&#174;<\/sup> Credit Card<\/span>.<sup class='tw-leading-none tw-text-[7px]'>&#8224;<\/sup> Terms apply.<\/span>\"\n                        },\n                        {\n                            \"part\": 4.4,\n                            \"type\": \"image\",\n                            \"url\": \"https:\/\/pywweb.uat.telluride.shopyourway.com\/pyw_library\/images\/SearsCC5321_less_shadow.png\"\n                        },\n                        {\n                            \"part\": 4.5,\n                            \"type\": \"link-modal\",\n                            \"data\": \"<div style='margin:0; padding:4px 16px 16px 16px; font-family: Arial, sans-serif; font-size:14px; color:#000;'><p style='margin:0 0 16px;'><strong style='color:#1c4587;'>&#x2A;PREQUALIFICATION: CHECKING WON&apos;T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><\/br><p style='margin:0 0 16px;'>Eligibility check uses a soft credit inquiry and won't affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry and may impact your credit score.<\/p><\/br><p style='margin:0 0 16px;'><span style='color:#1c4587;'><sup>&#8224;<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><\/br><p style='margin:0 0 32px;'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><\/br><p style='margin:0 0 16px;'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><\/br><p style='margin:0 0 16px;'>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><\/br><p style='margin:0 0 16px; color:#000000;'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><\/br><p style='margin:0; color:#999999;'>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\",\n                            \"data_web\": \"<div class='tw-m-0 tw-pt-1 tw-px-4 tw-pb-4 tw-font-[Arial,sans-serif] tw-text-sm tw-text-black'><p class='tw-m-0 tw-mb-4'><strong class='tw-text-[#1c4587]'>&#x2A;PREQUALIFICATION: CHECKING WON&apos;T AFFECT YOUR CREDIT SCORE. APPLYING MAY RESULT IN A HARD INQUIRY<\/strong><\/p><p class='tw-m-0 tw-mb-4'>Eligibility check uses a soft credit inquiry and won&apos;t affect your credit score. If you choose to proceed with a full application, this will result in a hard inquiry, which may impact your credit score.<\/p><p class='tw-m-0 tw-mb-4'><span class='tw-text-[#1c4587]'><sup>&#8224;<\/sup><strong>$200 STATEMENT CREDIT OFFER DETAILS<\/strong><\/span><\/p><p class='tw-m-0 tw-mb-4'>When you are approved for a new Shop Your Way 5321 Visa<sup>&#174;<\/sup> Credit Card and use it to make $200 or more in total qualifying purchases with Shop Your Way partners within the first 90 days of account opening, you will receive a $200 Statement Credit. Qualifying purchases may be made in multiple transactions and do not need to be made in a single purchase. Purchases must post to your account during the 90-day promotional period that begins on your account opening date. This offer is only available for new Shop Your Way 5321 Visa accounts opened through March 31, 2027. Existing accounts are not eligible.<\/p><p class='tw-m-0 tw-mb-4'>Your account must be open and in good standing at the time the Statement Credit is applied. Statement Credit will post within 10 business days after the qualifying purchase threshold is met, and qualifying purchases have posted to your account. The Statement Credit reduces your balance, but does not count as a payment. You must still make your minimum monthly payment. Limit one offer per new account. Offer is not transferable, and cannot be combined with any other introductory offer. Terms may change without notice, but changes will not affect accounts already opened under this offer.<\/p><p class='tw-m-0 '>The following types of transactions do not qualify as eligible purchases and will not earn Points or a Statement Credit: cash equivalents, balance transfers, disputes or fraudulent transactions, interest &amp; fees, and gambling transactions. Additional exclusions apply. Participating Shop Your Way partners are:<\/p><p class='tw-m-0 tw-mb-4 tw-text-[#999999]'>Sears, Sears.com, Kmart, Kmart.com, SearsPartsDirect.com, Sears Home Services In-Home Repair, Sears Home Services Protection Agreements, Sears Home Warranty.<\/p><p class='tw-m-0 '>5321 Visa<sup>&#174;<\/sup> Credit Cards are issued by First Bank &amp; Trust, Brookings, SD pursuant to a license from Visa U.S.A., Inc. Visa is a registered trademark of Visa International Service Association. Marks used herein are service marks of First Bank &amp; Trust.<\/p><\/div>\",\n                            \"content_web\": \"<span class='tw-font-[family-name:Open_Sans] tw-text-[#5E6A70] tw-text-[12px] tw-font-normal tw-cursor-pointer'><sup class='tw-no-underline'>&#8224;<\/sup><span class='tw-underline'>See Details<\/span>.<\/span>\",\n                            \"content\": \"<span style='color:#5E6A70;font-family:Open Sans; font-size:12px;line-height:14px;'><sup style='font-size:10px;vertical-align:-2px'>&#8224;<\/sup><a href='seedetails' style='font-size:12px; font-weight:600; color:#5E6A70;text-decoration:none;'><br\/><span style='text-decoration:underline;'>See Details.<\/span><\/a><\/span>\",\n                            \"url\": \"\"\n                        }\n                    ]\n                },\n                {\n                    \"part\": 5,\n                    \"type\": \"fee-card\",\n                    \"background\": \"#FFFFFF\",\n                    \"cornerRadius\": 14,\n                    \"isEnable\": \"true\",\n                    \"subParts\": [\n                        {\n                            \"part\": 5.1,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#0F213D;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:700;line-height:20px'>Diagnostic fee only<\/span>\",\n                            \"content_web\": \"<span class='tw-text-[#0F213D] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-5'>Diagnostic fee only<\/span>\"\n                        },\n                        {\n                            \"part\": 5.2,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:var(--color-text-secondary,#5E6A70);font-family:Open Sans;font-size:12px;font-style:normal;font-weight:400;line-height:16px'>Appliance is not repaired<\/span>\",\n                            \"content_web\": \"<span class='tw-text-[#5E6A70] tw-font-[family-name:Open_Sans] tw-text-[12px] tw-not-italic tw-font-normal tw-leading-4'>Appliance is not repaired<\/span>\"\n                        },\n                        {\n                            \"part\": 5.3,\n                            \"type\": \"text\",\n                            \"align\": \"end\",\n                            \"content\": \"<span style='color:var(--color-text-primary,#262C2F);font-family:Open Sans;font-size:14px;font-style:normal;font-weight:700;line-height:20px'>$129.00<\/span>\",\n                            \"content_web\": \"<span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-5'>$129.00<\/span>\"\n                        }\n                    ]\n                },\n                {\n                    \"part\": 6,\n                    \"type\": \"divider-label\",\n                    \"content\": \"OR GET IT FIXED\",\n                    \"isEnable\": \"true\"\n                },\n                {\n                    \"part\": 7,\n                    \"type\": \"price-breakdown\",\n                    \"background\": \"#FFFFFF\",\n                    \"isEnable\": \"false\",\n                    \"cornerRadius\": 14,\n                    \"subParts\": [\n                        {\n                            \"part\": 7.1,\n                            \"type\": \"text\",\n                            \"mType\": \"row\",\n                            \"mLabel\": \"<span style='color:#0F213D;font-family:Open Sans;font-size:14px;font-weight:600;'>Pay today<\/span>\",\n                            \"mValue\": \"<span style='color:#1A73E8;font-family:OpenSans-Bold;font-size:14px;font-weight:700'>$129.00<\/span>\",\n                            \"content_web\": \"<div class='tw-flex tw-justify-between tw-w-full'><span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-semibold tw-leading-normal'>Pay today<\/span><span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-normal'>$129.00<\/span><\/div>\"\n                        },\n                        {\n                            \"part\": 7.2,\n                            \"type\": \"text\",\n                            \"mType\": \"row\",\n                            \"mLabel\": \"<span style='color:#262C2F;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:600;'>Statement Credit &#8212; if approved<span style='font-weight:400'><sup style='vertical-align:-2px'>&#8224;<\/sup><\/span><\/span>\",\n                            \"mValue\": \"<span style='color:#169B4A;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:700;'>-$200.00<\/span>\",\n                            \"content_web\": \"<div class='tw-flex tw-justify-between tw-w-full'><span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-semibold tw-leading-normal'>Statement Credit &#8212; if approved<sup class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] !tw-text-[12px] tw-not-italic tw-font-normal tw-leading-4'>&#8224;<\/sup><\/span><span class='tw-text-[#169B4A] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-normal'>&#8722;$200.00<\/span><\/div>\"\n                        },\n                        {\n                            \"part\": 7.3,\n                            \"type\": \"text\",\n                            \"mType\": \"divider\",\n                            \"content_web\": \"<hr class='tw-border-0 tw-border-t tw-border-[#E0E0E0] tw-w-full tw-my-2' \/>\"\n                        },\n                        {\n                            \"part\": 7.4,\n                            \"type\": \"text\",\n                            \"mType\": \"row\",\n                            \"mLabel\": \"<span style='color:#0F213D;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:600;'>Total after Statement Credit<\/span>\",\n                            \"mValue\": \"<span style='color:#1A73E8;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:700;'>$-71.00<\/span>\",\n                            \"content_web\": \"<div class='tw-flex tw-justify-between tw-w-full'><span class='tw-text-[#0F213D] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-5'>Total after Statement Credit<\/span><span class='tw-text-[#0066CC] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-5'>$-71.00<\/span><\/div>\"\n                        },\n                        {\n                            \"part\": 7.5,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:var(--color-text-secondary,#5E6A70);font-family:Open Sans;font-size:12px;font-style:normal;font-weight:400;line-height:14px'>New cardmembers only. You pay the full amount today&nbsp;&#8212; the $200 Statement Credit appears on your card statement after approval and offer terms are met.<sup style='font-size:7px;line-height:0;vertical-align:-2px;'>&#8224;<\/sup><\/span>\",\n                            \"content_web\": \"<span style='white-space:normal; display:block;margin:0;padding:0;color:#5E6A70;font-family:Open Sans,sans-serif;font-size:12px;font-weight:400;line-height:20px'>New cardmembers only. You pay the full amount today&nbsp;&#8212; the $200 Statement Credit appears on your card statement after approval and offer terms are met.<sup style='font-size:7px;line-height:0'>&#8224;<\/sup><\/span>\"\n                        }\n                    ]\n                },\n                {\n                    \"part\": 8,\n                    \"type\": \"count towards\",\n                    \"background\": \"#FFFFFF\",\n                    \"isEnable\": \"false\",\n                    \"subParts\": [\n                        {\n                            \"part\": 8.1,\n                            \"type\": \"image\",\n                            \"url\": \"https:\/\/pywweb.uat.telluride.shopyourway.com\/pyw_library\/images\/Checkmark.png\"\n                        },\n                        {\n                            \"part\": 8.2,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#1F9E59;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:700;line-height:20px'>Today&#39;s $129.00 counts toward your $200<span style='font-weight:400'><sup style='vertical-align:-2px'>&#8224;<\/sup><\/span><\/span>\",\n                            \"content_web\": \"<span class='tw-text-[#1F9E59] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-5'>Today&#39;s $129.00 counts toward your $200<sup>&#8224;<\/sup> <\/span>\"\n                        },\n                        {\n                            \"part\": 8.3,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#5E6A70;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:400;line-height:16px'>New cardmembers get $200 back after $200 in qualifying purchases with Sears & Shop Your Way<sup style='vertical-align:-2px'>&#174;<\/sup> partners in the first 90 days.<span style='font-weight:400'><sup style='vertical-align:-2px'>&#8224;<\/sup><\/span><\/span>\",\n                            \"content_web\": \"<span class='tw-block tw-m-0 tw-p-0 tw-text-[#5E6A70] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-normal tw-leading-[20px]'>New cardmembers get $200 back after $200 in qualifying purchases with Sears &amp; Shop Your Way<sup>&#174;<\/sup> partners in the first 90 days.<sup class='tw-leading-none tw-text-[7px]'>&#8224;<\/sup><\/span>\"\n                        }\n                    ]\n                },\n                {\n                    \"part\": 9,\n                    \"type\": \"Repair only ��� pay today greater than 200\",\n                    \"cornerRadius\": 12,\n                    \"background\": \"#FFFFFF\",\n                    \"isEnable\": \"false\",\n                    \"subParts\": [\n                        {\n                            \"part\": 9.1,\n                            \"type\": \"text\",\n                            \"mType\": \"row\",\n                            \"mLabel\": \"<span style='color:#0F213D;font-family:Open Sans;font-size:14px;font-weight:600;'>Repair Only &#8212; pay today<\/span>\",\n                            \"mValue\": \"<span style='color:#1A73E8;font-family:Open Sans;font-size:14px;font-weight:700'>$175.00<\/span>\",\n                            \"content_web\": \"<div class='tw-flex tw-justify-between tw-w-full'><span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-semibold tw-leading-normal'>Repair Only &#8212; pay today<\/span><span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-normal'>$175.00<\/span><\/div>\"\n                        },\n                        {\n                            \"part\": 9.2,\n                            \"type\": \"text\",\n                            \"mType\": \"row\",\n                            \"mLabel\": \"<span style='color:#262C2F;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:600;'>Statement Credit &#8212; if approved<span style='font-weight:400'><sup style='vertical-align:-2px'>&#8224;<\/sup><\/span><\/span>\",\n                            \"mValue\": \"<span style='color:#169B4A;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:700;'>-$200.00<\/span>\",\n                            \"content_web\": \"<div class='tw-flex tw-justify-between tw-w-full'><span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-semibold tw-leading-normal'>Statement Credit &#8212; if approved<sup>&#8224;<\/sup><\/span><span class='tw-text-[#169B4A] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-normal'>-$200.00<\/span><\/div>\"\n                        },\n                        {\n                            \"part\": 9.3,\n                            \"type\": \"text\",\n                            \"mType\": \"divider\",\n                            \"content_web\": \"<hr class='tw-border-0 tw-border-t tw-border-[#E0E0E0] tw-w-full tw-my-2' \/>\"\n                        },\n                        {\n                            \"part\": 9.4,\n                            \"type\": \"text\",\n                            \"mType\": \"row\",\n                            \"mLabel\": \"<span style='color:#0F213D;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:600;'>Total after Statement Credit<\/span>\",\n                            \"mValue\": \"<span style='color:#1A73E8;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:700;'>$-25.00<\/span>\",\n                            \"content_web\": \"<div class='tw-flex tw-justify-between tw-w-full'><span class='tw-text-[#0F213D] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-5'>Total after Statement Credit<\/span><span class='tw-text-[#1A73E8] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-5'>$-25.00<\/span><\/div>\"\n                        },\n                        {\n                            \"part\": 9.5,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#8A9099;font-family:Open Sans;font-size:12px;font-style:normal;font-weight:400;line-height:16px'>New cardmembers only. You pay the full amount today &#8212; the $200 Statement Credit appears on your card statement after approval and offer terms met.<span style='font-weight:400;'><sup style='vertical-align:-2px'>&#8224;<\/sup><\/span><\/span>\",\n                            \"content_web\": \"<span class='tw-block tw-text-[#8A9099] tw-font-[family-name:Open_Sans] tw-text-[12px] tw-not-italic tw-font-normal tw-leading-4'>New cardmembers only. You pay the full amount today &#8212; the $200 Statement Credit appears on your card statement after approval and offer terms met.<sup class='tw-leading-none tw-text-[8px]'>&#8224;<\/sup><\/span>\"\n                        }\n                    ]\n                },\n                {\n                    \"part\": 10,\n                    \"type\": \"Repair only ��� pay today lessthan 200\",\n                    \"background\": \"#FFFFFF\",\n                    \"isEnable\": \"true\",\n                    \"subParts\": [\n                        {\n                            \"part\": 10.1,\n                            \"type\": \"text\",\n                            \"mType\": \"row\",\n                            \"mLabel\": \"<span style='color:#0F213D;font-family:OpenSans-SemiBold;font-size:14px;font-weight:600;'>Repair Only &#8212; pay today<\/span>\",\n                            \"mValue\": \"<span style='color:#0F213D;font-family:OpenSans-Bold;font-size:14px;font-weight:700'>$175.00<\/span>\",\n                            \"content_web\": \"<div class='tw-flex tw-justify-between tw-w-full'><span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-semibold tw-leading-normal'>Repair Only &#8212; pay today<\/span><span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-normal'>$175.00<\/span><\/div>\"\n                        },\n                        {\n                            \"part\": 10.2,\n                            \"type\": \"divider\",\n                            \"mType\": \"divider\"\n                        },\n                        {\n                            \"part\": 10.3,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#1F9E59;font-family:Open Sans;font-size:15px;font-style:normal;font-weight:700;line-height:normal'>&#10003; Counts toward your $200 back<span style='font-weight:400'><sup style='vertical-align:-2px'>&#8224;<\/sup><\/span><\/span>\",\n                            \"content_web\": \"<span class='tw-text-[#1F9E59] tw-font-[family-name:Inter] tw-text-[15px] tw-not-italic tw-font-bold tw-leading-normal'>&#10003; Counts toward your $200 back<span class='tw-font-normal'>&#8224;<\/span><\/span>\"\n                        },\n                        {\n                            \"part\": 10.4,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#6B7380;font-family:Inter,sans-serif;font-size:10.5px;font-style:normal;font-weight:400;line-height:135%'>New cardmembers get $200 back after $200 in qualifying purchases with Sears & SYW partners in the first 90 days.<span style='font-weight:400'><sup>&#8224;<\/sup><\/span><\/span>\",\n                            \"content_web\": \"<span class='tw-block tw-m-0 tw-p-0 tw-text-[#6B7380] tw-font-[family-name:Inter] tw-text-[10.5px] tw-not-italic tw-font-normal tw-leading-[14px]'>New cardmembers get $200 back after $200 in qualifying purchases with Sears &amp; SYW partners in the first 90 days.<sup class='tw-leading-none tw-text-[7px]'>&#8224;<\/sup><\/span>\"\n                        }\n                    ]\n                },\n                {\n                    \"part\": 11,\n                    \"type\": \"qr-scan\",\n                    \"isEnable\": \"true\",\n                    \"background\": \"#FFFFFF\",\n                    \"cornerRadius\": 12,\n                    \"subParts\": [\n                        {\n                            \"part\": 11.1,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#0F213D;font-family:Outfit;font-size:14px;font-style:normal;font-weight:700;line-height:20px'>Scan with your phone camera to see if you qualify<\/span>\",\n                            \"content_web\": \"<span class='tw-block tw-m-0 tw-p-0 tw-text-[#0F213D] tw-font-[family-name:Outfit] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-[20px]'>Scan with your phone camera to see if you qualify<\/span>\"\n                        },\n                        {\n                            \"part\": 11.2,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#0F213D;font-family:Outfit;font-size:14px;font-style:normal;font-weight:400;line-height:20px'>Takes about a minute &#183; won't impact your credit score*<\/span>\",\n                            \"content_web\": \"<span class='tw-block tw-m-0 tw-p-0 !tw-text-[#0F213D;] tw-font-[family-name:Outfit] tw-text-[14px] tw-not-italic tw-font-normal tw-leading-[20px]'>Takes about a minute &#183; won't impact your credit score*<\/span>\"\n                        },\n                        {\n                            \"part\": 11.3,\n                            \"type\": \"image\",\n                            \"label\": \"QR code\",\n                            \"url\": \"\"\n                        },\n                        {\n                            \"part\": 11.4,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#0F213D;font-family:Outfit;font-size:14px;font-style:normal;font-weight:700;line-height:24px'>or Send application link to email:<\/span>\",\n                            \"content_web\": \"<span class='tw-text-[#0F213D] tw-font-[family-name:Outfit] tw-text-[14px] tw-not-italic tw-font-bold tw-leading-6'>or Send application link to email:<\/span>\"\n                        },\n                        {\n                            \"part\": 11.5,\n                            \"type\": \"input\",\n                            \"placeholder\": \"Enter email address\"\n                        },\n                        {\n                            \"part\": 11.6,\n                            \"type\": \"button\",\n                            \"content\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:13px;font-weight:700'>SEND<\/span>\",\n                            \"cornerRadius\": 4,\n                            \"background\": \"#0066CC\",\n                            \"content_web\": \"<span class='action-button-text tw-text-white tw-text-[13px] tw-font-bold'>SEND<\/span>\",\n                            \"content_ang\": \"<span class='action-button-text' style='color:#FFFFFF;font-size:13px;font-weight:700'>SEND<\/span>\"\n                        },\n                        {\n                            \"part\": 11.7,\n                            \"type\": \"text\",\n                            \"content\": \"<span style='color:#5E6A70;font-family:Open Sans;font-size:12px;font-style:normal;font-weight:400;line-height:16px'>we&#39;ll send a secure application link to complete on your device.<\/span>\",\n                            \"content_web\": \"<span class='tw-block tw-m-0 tw-p-0 tw-text-[#5E6A70] tw-font-[family-name:Open_Sans] tw-text-[12px] tw-not-italic tw-font-normal tw-leading-[16px]'>we&#39;ll send a secure application link to complete on your device.<\/span>\"\n                        }\n                    ]\n                },\n                {\n                    \"part\": 12,\n                    \"type\": \"text\",\n                    \"isEnable\": \"false\",\n                    \"content\": \"<span style='color:#262C2F;text-align:center;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:400;line-height:20px'><span style='white-space:nowrap'>Once the customer scans, the application continues<\/span><span style='white-space:nowrap'> on the customer&#39;s phone &#8212; you can proceed anytime.<\/span><\/span>\",\n                    \"content_web\": \"<span class='tw-flex tw-flex-col tw-items-center tw-self-stretch tw-text-center tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-normal tw-leading-5'><span class='tw-whitespace-nowrap'>Once the customer scans, the application continues<\/span><span class='tw-whitespace-nowrap'>on the customer&#39;s phone &#8212; you can proceed anytime.<\/span><\/span>\"\n                },\n                {\n                    \"part\": 13,\n                    \"type\": \"text\",\n                    \"isEnable\": \"true\",\n                    \"content\": \"<span style='color:#262C2F;text-align:center;font-family:Open Sans;font-size:14px;font-style:normal;font-weight:400;line-height:20px'>Continue with decline. Diagnostic fee only ($129)<\/span>\",\n                    \"content_web\": \"<span class='tw-text-[#262C2F] tw-font-[family-name:Open_Sans] tw-text-[14px] tw-not-italic tw-font-normal tw-leading-5'>Continue with decline. Diagnostic fee only ($129)<\/span>\"\n                },\n                {\n                    \"part\": 14,\n                    \"type\": \"button\",\n                    \"isEnable\": \"true\",\n                    \"content\": \"<span class='action-button-text' style='color:#FFF;font-family:Open Sans;font-size:15px;font-style:normal;font-weight:700;'>Continue<\/span>\",\n                    \"background\": \"#0066CC\",\n                    \"cornerRadius\": 4,\n                    \"Fn_PostMessage\": true,\n                    \"content_web\": \"<span class='action-button-text tw-text-white tw-font-[family-name:Open_Sans] tw-text-[15px] tw-not-italic tw-font-bold tw-leading-6'>Continue<\/span>\",\n                    \"content_ang\": \"<span class='action-button-text tw-text-white tw-font-[family-name:Open_Sans] tw-text-[15px] tw-not-italic tw-font-bold tw-leading-6'>Continue<\/span>\"\n                }\n            ]\n        }\n    },\n    \"merchant\": \"TELL_PYW_CONTACTLESS_UAT\",\n    \"perks\": [\n        \"$200 statement credit when you spend a total of $200 or more within 90 days on qualifying Sears and SYW partner purchases†\",\n        \"See if you qualify with no impact to your credit score*\"\n    ],\n    \"applyNgetResolved2\": \"new\",\n    \"offerName\": \"QR_V2\",\n    \"paymentSummaryService\": \"false\",\n    \"paymentSummaryC1\": \"false\",\n    \"paymentSummaryCheck\": [\n        {\n            \"serviceFee\": \"175\",\n            \"serviceSelected\": false,\n            \"serviceName\": \"DNR\"\n        }\n    ],\n    \"saleAmount\": \"129\",\n    \"serviceFee\": \"175\",\n    \"enableC1oC2\": \"false\",\n    \"enableSA0Case\": \"false\",\n    \"enableC1oC2New\": \"false\",\n    \"version\": \"3\"\n}\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Extensions\/Notifications+Extension.swift",
@@ -4972,14 +5392,14 @@
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWComponent\/AGCComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 20359,
+      "offset": 23282,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWComponent\/AGCComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 20940,
+      "offset": 24845,
       "length": 4,
       "value": "true"
     },
@@ -4989,6 +5409,27 @@
       "offset": 214,
       "length": 36,
       "value": "\"com.syw.agc.device_installation_id\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCPriceBreakdown.swift",
+      "kind": "IntegerLiteral",
+      "offset": 535,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCOfferCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCOfferCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 803,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/ViewControllers\/PywViewController.swift",
@@ -5077,16 +5518,58 @@
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/ViewControllers\/PywViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11296,
+      "offset": 11330,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/ViewControllers\/PywViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11322,
+      "offset": 11356,
       "length": 3,
       "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCOrGetFixDivider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 541,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCOrGetFixDivider.swift",
+      "kind": "StringLiteral",
+      "offset": 711,
+      "length": 9,
+      "value": "\"#D9DEE5\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCOrGetFixDivider.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 9,
+      "value": "\"#D9DEE5\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCOrGetFixDivider.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 8,
+      "value": "\"0066CC\""
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCCountTowards.swift",
+      "kind": "IntegerLiteral",
+      "offset": 534,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/AGCCountTowards.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1117,
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardSDK\/Custom components\/PYWButton.swift",

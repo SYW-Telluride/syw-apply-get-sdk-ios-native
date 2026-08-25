@@ -69,9 +69,9 @@ public struct PYWConfirmation : Swift.Codable {
 final public class AGCBuilder {
   public init(refId: Swift.String, environment: ApplyGetCardSDK.AGCEnvironment, delegate: any ApplyGetCardSDK.AGCDelegate, merchant: Swift.String)
   @discardableResult
-  final public func setSourceViewController(_ sourceViewController: UIKit.UIViewController) -> ApplyGetCardSDK.AGCBuilder
-  @discardableResult
   final public func setSaleAmount(_ saleAmount: Swift.String) -> ApplyGetCardSDK.AGCBuilder
+  @discardableResult
+  final public func setPaymentSummary(_ paymentSummary: [[Swift.String : Swift.AnyHashable]]) -> ApplyGetCardSDK.AGCBuilder
   @discardableResult
   final public func setReturnUrl(_ returnUrl: Swift.String) -> ApplyGetCardSDK.AGCBuilder
   @discardableResult
@@ -80,12 +80,6 @@ final public class AGCBuilder {
   final public func setItems(_ items: Swift.String) -> ApplyGetCardSDK.AGCBuilder
   @discardableResult
   final public func setAddresses(_ addresses: Swift.String) -> ApplyGetCardSDK.AGCBuilder
-  @discardableResult
-  final public func setPrepareHandler(_ handler: @escaping () -> Swift.Void) -> ApplyGetCardSDK.AGCBuilder
-  @discardableResult
-  final public func setStatusHandler(_ handler: @escaping (Swift.String) -> Swift.Void) -> ApplyGetCardSDK.AGCBuilder
-  @discardableResult
-  final public func setPrepareButtonEnabled(_ enabled: Swift.Bool) -> ApplyGetCardSDK.AGCBuilder
   @discardableResult
   final public func setMemberNumber(_ memberNumber: Swift.String) -> ApplyGetCardSDK.AGCBuilder
   @discardableResult
@@ -113,6 +107,8 @@ final public class AGCBuilder {
   @discardableResult
   final public func setRID(_ rId: Swift.String) -> ApplyGetCardSDK.AGCBuilder
   @discardableResult
+  final public func setSDKType(_ sdkType: Swift.String) -> ApplyGetCardSDK.AGCBuilder
+  @discardableResult
   final public func setProps(_ addProps: [Swift.String : Swift.AnyHashable]) -> ApplyGetCardSDK.AGCBuilder
   final public func build() -> ApplyGetCardSDK.AGCConfig
   @objc deinit
@@ -131,14 +127,14 @@ public enum AGCEnvironment {
   @_Concurrency.MainActor @preconcurrency final public func setConfig(_ configuration: ApplyGetCardSDK.AGCConfig)
   @_Concurrency.MainActor @preconcurrency final public func updateRefId(_ refId: Swift.String)
   @_Concurrency.MainActor @preconcurrency final public func updateDueAmount(_ amount: Swift.String)
-  @_Concurrency.MainActor @preconcurrency final public func setPrepareButtonEnabled(_ enabled: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency final public func continueToApplication()
   @objc deinit
+  @_Concurrency.MainActor @preconcurrency final public func continueToApplication()
 }
 extension ApplyGetCardSDK.AGCComponent : UIKit.UIScrollViewDelegate {
   @_Concurrency.MainActor @preconcurrency @objc final public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
 }
 public protocol AGCDelegate : AnyObject {
+  func exitSDKHandler()
   func onPywSuccess(pywId: Swift.String?, pywConfirmation: ApplyGetCardSDK.PYWConfirmation?)
   func onPywFailure(pywId: Swift.String?)
   func onCanceled()
@@ -152,6 +148,9 @@ extension ApplyGetCardSDK.AGCDelegate {
   public func onPywFailure(pywId: Swift.String?)
   public func onPywHold(pywId: Swift.String?)
   public func onPywInvalidSession()
+  public func onCanceled()
+  public func onApplyGetCardFailure()
+  public func onApplyGetCardSuccess()
 }
 extension ApplyGetCardSDK.AGCEnvironment : Swift.Equatable {}
 extension ApplyGetCardSDK.AGCEnvironment : Swift.Hashable {}

@@ -22,43 +22,43 @@
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		aulKjskcaQnAx/t1xeBnR+DsNSc=
+		S8nfABO9fZE55LqQ6VY9zSLxHTs=
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PT+JAr2Z53kxbPq0B5fDZKONk34=
+		6nCb8vb2vjWEnKrO1vv55LfDqXU=
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		J/OTtN85BBYmnlCFCKXTy6jFANc=
+		/l2xem8SKZGgB8YRavRsQcH5Js0=
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PT+JAr2Z53kxbPq0B5fDZKONk34=
+		6nCb8vb2vjWEnKrO1vv55LfDqXU=
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2oVNOaxrAyZfY9HTXzo4dhw+u0k=
+		rauxuiENqMUQzVeeKQVQ7llGT+4=
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		aulKjskcaQnAx/t1xeBnR+DsNSc=
+		S8nfABO9fZE55LqQ6VY9zSLxHTs=
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZdPaGVu/jceSALbcVohNsBMgYKk=
+		C1Bj1S/gyu6zha7IP6QrmKpyaqY=
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Fjb0IMw1AjCM0wDHr4WIA4o7m5Y=
+		HjKuanojdb1IIP6xZo/+oPSVGBQ=
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZdPaGVu/jceSALbcVohNsBMgYKk=
+		C1Bj1S/gyu6zha7IP6QrmKpyaqY=
 		</data>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Oz5ep4r6R9nBcBL5GxtXzZWu7w0=
+		NwvhNveo9fMItHaezAzkMphEFOY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,6 +83,66 @@
 		<key>Montserrat-SemiBold.ttf</key>
 		<data>
 		efdGFtaLh9bPiXmP5yJZA2MmVno=
+		</data>
+		<key>OpenSans-Bold.ttf</key>
+		<data>
+		x+a5E/mQKZ/MWSj0WBcnly6Glyc=
+		</data>
+		<key>OpenSans-ExtraBold.ttf</key>
+		<data>
+		clu0r7DrJhrOokvY3G0fwQb7mJA=
+		</data>
+		<key>OpenSans-Light.ttf</key>
+		<data>
+		YjYCOnjDAxom5wk4gczurlCtA28=
+		</data>
+		<key>OpenSans-Medium.ttf</key>
+		<data>
+		FjISPop43QlfuYfAyyrQUGPgZIo=
+		</data>
+		<key>OpenSans-Regular.ttf</key>
+		<data>
+		V2qmacTOs4MP3oWaTbUpFt7xcq8=
+		</data>
+		<key>OpenSans-SemiBold.ttf</key>
+		<data>
+		NEBBrqrZ4HoYbMOpN9+RXl2Yk28=
+		</data>
+		<key>Outfit-Black.ttf</key>
+		<data>
+		6jpeU/4zox/1wCC+qD6TPjgOBiA=
+		</data>
+		<key>Outfit-Bold.ttf</key>
+		<data>
+		FIyaTxRUQuhVCaICRy89/AAvI1k=
+		</data>
+		<key>Outfit-ExtraBold.ttf</key>
+		<data>
+		pGE0NGyqDBi2UVdkG+WeWXMDfe0=
+		</data>
+		<key>Outfit-ExtraLight.ttf</key>
+		<data>
+		NR0bkAsAVdCsQgafH23E8DIHdn0=
+		</data>
+		<key>Outfit-Light.ttf</key>
+		<data>
+		It5wEt9YiXwJtNMblj0xcpMjfB4=
+		</data>
+		<key>Outfit-Medium.ttf</key>
+		<data>
+		nX2y5qRYE1uBtoB4p/SGP6F8ICQ=
+		</data>
+		<key>Outfit-Regular.ttf</key>
+		<data>
+		BqjeciH5bNzj6Q4yRE8dt4l7R5o=
+		</data>
+		<key>Outfit-SemiBold.ttf</key>
+		<data>
+		GHpRRn9vrqs4U/YqOMcpgXqTi8A=
+		</data>
+		<key>Outfit-Thin.ttf</key>
+		<data>
+		8gvlsDaip0UtFCyZR+53SYihA1I=
 		</data>
 		<key>close.png</key>
 		<data>
@@ -116,70 +176,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AfH8VDyPj9rUhTdC3YI/BZDrF5BVvIuVroSlae7tocM=
+			BGl0iy2HChH98rl7Eyi0og1lpxuJs9yXzilb4Nmvr8M=
 			</data>
 		</dict>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Af3GM0Kg34OJAmijTj9shbKLol2LkUUX/+Zx8/zuFE8=
+			6MoZWNIiTs7+RSQFOJxuaODzJxfwQq7Q3ChavnCiL/w=
 			</data>
 		</dict>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			spN+qLB8gsLVIlZuMxUd2n5S7dIKuI0tZHrLjPgwfF8=
+			eYReMCOpPDtpsQS+I/R1z4b6slY9uSneSft38f6bUXA=
 			</data>
 		</dict>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Af3GM0Kg34OJAmijTj9shbKLol2LkUUX/+Zx8/zuFE8=
+			6MoZWNIiTs7+RSQFOJxuaODzJxfwQq7Q3ChavnCiL/w=
 			</data>
 		</dict>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			19y8Yd7FjE7+82VgRj/79bGpjgenuBtlNneOeAHdwQ8=
+			m5YZU2mjYLZ22eoVrA0iYdxCZvbtcXG7DWuIMrwGFzo=
 			</data>
 		</dict>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AfH8VDyPj9rUhTdC3YI/BZDrF5BVvIuVroSlae7tocM=
+			BGl0iy2HChH98rl7Eyi0og1lpxuJs9yXzilb4Nmvr8M=
 			</data>
 		</dict>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3NN3l8hjMzpZiyH6/oPvspcElsneYzEx69wTg3yEEws=
+			z09bV6ZhGeCFt35IEY8O6WvFHhz9AXgb648H8v/irrE=
 			</data>
 		</dict>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lGVxzF52BnqypgxlvJHkiYMfuZ/3VkTCO0SLbt75AT4=
+			21PKrVABID0Roa6QSGzg0FE/NbBUnEvL+WWt1Kf43b8=
 			</data>
 		</dict>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3NN3l8hjMzpZiyH6/oPvspcElsneYzEx69wTg3yEEws=
+			z09bV6ZhGeCFt35IEY8O6WvFHhz9AXgb648H8v/irrE=
 			</data>
 		</dict>
 		<key>Modules/ApplyGetCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QKVZ7B4A3GZDHlyUkclKbA/woPPimDBFKurLhWy481A=
+			ORbU8SKowLcCGYURUt6F7ueqNMH6hLCxqJh4GKqQtb8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -222,6 +282,111 @@
 			<key>hash2</key>
 			<data>
 			nE2zgUh1QQ59ZP3I5pZ2w7hJaLsVvzrOizlExZ+8VrY=
+			</data>
+		</dict>
+		<key>OpenSans-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X0xvDGvq6UhjoJmnpTgFnEgPkVh/Gr/8BlUun6OkT0A=
+			</data>
+		</dict>
+		<key>OpenSans-ExtraBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HFo35FzetCqUMU5761HYAn7coLx+K0LyGONEdd+XSqM=
+			</data>
+		</dict>
+		<key>OpenSans-Light.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DOsAkbVCbvV2yej58X+wEMO927QFJQdCiH7rqSs4K00=
+			</data>
+		</dict>
+		<key>OpenSans-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I+PjlF+I6usxUvxw6rc3fgx286PCjy8ksEH4f7iwAaM=
+			</data>
+		</dict>
+		<key>OpenSans-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M+k77GfZHDlodttQaUITgCo55DqRG7XCIyLw299NXkM=
+			</data>
+		</dict>
+		<key>OpenSans-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Emp8TbktEegzYPuMsSC4gKWmGYRf1UWnVW1B6W0aqec=
+			</data>
+		</dict>
+		<key>Outfit-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8kDmEowxp1qj9FbqH/Ow/aOCF2aBeIrj0kTQjj+n1s0=
+			</data>
+		</dict>
+		<key>Outfit-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZlS5PSEwHsYYh9PO3WwR2d8bHftj+c9FrHmV9uIjWrE=
+			</data>
+		</dict>
+		<key>Outfit-ExtraBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f0UpSAQC9HeVsrTdSUQXtP8fBFTafX/7C2VuqQUj7Ec=
+			</data>
+		</dict>
+		<key>Outfit-ExtraLight.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WYqZFjO0rEAXIVGscnlPTsmxP+Gc61O6bKjDqqhWEKM=
+			</data>
+		</dict>
+		<key>Outfit-Light.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O0VOpuovro3yFTzDrVxW3jtUnTKTBxeWgs/AdfAle/0=
+			</data>
+		</dict>
+		<key>Outfit-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FmmZXe53Q4tzLWVX1x7U6AfdbruCcEtVOFk4cnxoQeI=
+			</data>
+		</dict>
+		<key>Outfit-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8klFNlFHyeeD6R2GSZWbWb5rAMnuTs0vazOvuy3Ycf4=
+			</data>
+		</dict>
+		<key>Outfit-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Aw03PE4qZ9XpIqJpTh6qs7nxII8TAdupSnC96/UsHvo=
+			</data>
+		</dict>
+		<key>Outfit-Thin.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qZJ5eYt49fR8XIbjh4gVMlgtBIVrSp86ySFxysElZ/0=
 			</data>
 		</dict>
 		<key>close.png</key>
